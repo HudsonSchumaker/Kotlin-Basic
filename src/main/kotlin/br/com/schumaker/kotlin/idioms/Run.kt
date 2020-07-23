@@ -1,7 +1,5 @@
 package br.com.schumaker.kotlin.idioms
 
-import kotlin.random.Random
-
 /**
  * @author Hudson Schumaker
  */

@@ -10,13 +10,13 @@ object Run {
         val n = justAString.run {
             this.length // this can be omitted
         }
-        println(n)
+        println(n) // prints 6
 
         val year = JamesBond().run {
             name = "Roger Moore"
             movie = "The man with the golden gun"
             1974 // not JamesBond type
         }
-        print(year)
+        print(year) // prints 1974
     }
 }

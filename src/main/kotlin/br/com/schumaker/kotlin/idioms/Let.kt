@@ -10,7 +10,7 @@ object Let {
     fun main(args: Array<String>) {
         val sometimesNull = if (Random.nextBoolean()) "not null" else null
         sometimesNull?.let {
-            print("It was $it this time")
+            print("It was $it this time.")
         }
     }
 }

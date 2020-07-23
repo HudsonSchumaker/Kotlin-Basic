@@ -7,7 +7,7 @@ object Instance {
 
     @JvmStatic
     fun main(args: Array<String>) {
-
+        whatInstance(Batman())
     }
 
     fun whatInstance(superHero: SuperHero) {

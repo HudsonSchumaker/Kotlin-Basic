@@ -14,6 +14,7 @@ object Apply {
 
         println(agentJavaWay.printMe())
 
+        // Using apply
         val `007` = JamesBond().apply {
             name = "Sean Connery"
             movie = "Satanic Dr. no"

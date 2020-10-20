@@ -3,6 +3,7 @@ package br.com.schumaker.kotlin.idioms
 /**
  * @author Hudson Schumaker
  */
+
 object Apply {
     @JvmStatic
     fun main(args: Array<String>) {

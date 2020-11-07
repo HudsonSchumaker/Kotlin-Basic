@@ -1,5 +1,8 @@
 package br.com.schumaker.kotlin.basics
 
+/**
+ * @author Hudson Schumaker
+ */
 class FunctionReturn {
     fun returnFullName(firstName: String, surname: String): String {
         return "${firstName} ${surname}"

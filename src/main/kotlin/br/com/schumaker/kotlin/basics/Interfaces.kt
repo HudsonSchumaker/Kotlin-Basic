@@ -1,5 +1,8 @@
 package br.com.schumaker.kotlin.basics
 
+/**
+ * @author Hudson Schumaker
+ */
 interface Interfaces {
 
 }

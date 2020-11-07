@@ -1,5 +1,8 @@
 package br.com.schumaker.kotlin.basics
 
+/**
+ * @author Hudson Schumaker
+ */
 class ArrayValueAssignment {
     val numbers = arrayOf(1, 2, 3, 4)
     println(numbers[0]) // Prints 1

@@ -1,3 +1,5 @@
+package br.com.schumaker.kotlin.concurrency
+
 fun activeActor(out: SendChannel<String>) = actor<Int> {
   for (i in this) {
      out.send(i.toString().reversed())

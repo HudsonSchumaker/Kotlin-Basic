@@ -12,7 +12,7 @@ object Lambda {
         }
         println(myFunctionLambda(15, 10))
 
-        //Lambda returning more the 1 option
+        // Lambda returning more the 1 option
 
         val calculateBonus: (salary: Double) -> Double = lambda@{ s ->
             if(s > 1000.0) {

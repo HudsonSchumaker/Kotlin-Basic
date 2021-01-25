@@ -1,7 +1,8 @@
 package br.com.schumaker.kotlin.concurrency
 
-// Hudson Schumaker
-
+/**
+ * @author Hudson Schumaker
+ */
 fun activeActor(out: SendChannel<String>) = actor<Int> {
   for (i in this) {
      out.send(i.toString().reversed())

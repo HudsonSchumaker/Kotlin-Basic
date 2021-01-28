@@ -1,9 +1,10 @@
 /**
  * @author Hudson Schumaker
  */
-class Person(val name: String) {
-    var children: MutableList<Person> = mutableListOf()
-    constructor(name: String, parent: Person) : this(name) {
-        parent.children.add(this)
-    }
+class Person(
+    val firstName: String,
+    val lastName: String,
+    var age: Int, // trailing comma
+) {
+    // some code comes here...
 }

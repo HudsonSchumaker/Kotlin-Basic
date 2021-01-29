@@ -1,3 +1,6 @@
+/**
+ * @author Hudson Schumaker
+ */
 class Streams {
     val numbers = (1..10).toList()
 

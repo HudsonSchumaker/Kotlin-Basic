@@ -1,3 +1,6 @@
+
+package br.com.schumaker.kotlin.pairs
+
 /**
  * @author Hudson Schumaker
  */

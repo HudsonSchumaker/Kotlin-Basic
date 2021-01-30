@@ -1,9 +1,21 @@
+/**
+ * @author Hudson Schumaker
+ */
+class Pair<V, C>(val vowels: V, val consonants: C) {
+    override fun hashCode(): Int {
+        return vowels.hashCode() xor consonants.hashCode()
+    }
 
-class Streams {
-    val numbers = (1..10).toList()
+    override fun equals(o: Any?): Boolean {
+        if (o !is Pair<*, *>) {
+            return false
+        }
+        return vowels == o.vowels && consonants == o.consonants
+    }
 
-    // Return a view, no copy here
-    val reversed = (1..10).toList().asReversed()
-
-    val sequence = (1..10).toList().asSequence()
+    companion object {
+        fun <V, C> of(vowels: V, consonants: C): Pair<V, C> {
+            return Pair(vowels, consonants)
+        }
+    }
 }

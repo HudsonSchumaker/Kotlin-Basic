@@ -3,7 +3,7 @@ package br.com.schumaker.kotlin.thread
 import kotlin.concurrent.thread
 
 /**
- * @author Hudson Schumaker
+ *  @author Hudson Schumaker
  */
 object Threads {
     @JvmStatic

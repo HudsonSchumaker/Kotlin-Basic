@@ -10,7 +10,7 @@ object Threads {
     fun main(args: Array<String>) {
         val t1 = thread {
             for (i in 1..100) {
-                println("T1: $i");
+                println("T1: $i")
             }
         }
     }

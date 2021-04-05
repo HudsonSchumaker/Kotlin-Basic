@@ -14,7 +14,7 @@ object Inline {
         }
     }
 
-    inline fun doesNotMakeSense(something: String) {
+    private inline fun doesNotMakeSense(something: String) {
         println(something)
     }
 

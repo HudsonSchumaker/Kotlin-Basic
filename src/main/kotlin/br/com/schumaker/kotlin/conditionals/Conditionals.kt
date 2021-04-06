@@ -1,5 +1,8 @@
 package br.com.schumaker.kotlin.conditionals
 
+/**
+ * @author Hudson Schumaker
+ */
 fun main() {
 
     var balance = 300.00 // val balance: Double = 300.00

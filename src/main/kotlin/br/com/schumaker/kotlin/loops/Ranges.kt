@@ -1,5 +1,8 @@
 package br.com.schumaker.kotlin.loops
 
+/**
+ * @author Hudson Schumaker
+ */
 fun main(args: Array<String>) {
     for(i in 0..3) {             // 1
         print(i)

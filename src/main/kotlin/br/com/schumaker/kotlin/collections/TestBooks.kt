@@ -1,5 +1,8 @@
 package br.com.schumaker.kotlin.collections
 
+/**
+ * @author Hudson Schumaker
+ */
 fun main() {
     val b1 = Book(
         title = "Grande Sertão: Veredas",

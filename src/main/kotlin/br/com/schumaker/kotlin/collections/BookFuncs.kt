@@ -1,5 +1,8 @@
 package br.com.schumaker.kotlin.collections
 
+/**
+ * @author Hudson Schumaker
+ */
 fun List<Book?>.printWithMarks() {
     val text = this
         .filterNotNull()

@@ -1,7 +1,7 @@
 package br.com.schumaker.kotlin.basics
 
 /**
- * @author Hudson Schumaker 
+ * @author Hudson Schumaker
  */
 object ArrayDeclaration {
     val names = arrayOf("Tobi", "Tonia", "Timi")

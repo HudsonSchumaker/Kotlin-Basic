@@ -1,7 +1,7 @@
 package br.com.schumaker.kotlin.idioms
 
 /**
- * @author Hudson Schumaker
+ * @author Hudson Schumaker 
  */
 object Also {
 

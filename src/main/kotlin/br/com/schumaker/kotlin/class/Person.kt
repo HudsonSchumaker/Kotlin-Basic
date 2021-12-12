@@ -1,7 +1,7 @@
 package br.com.schumaker.kotlin.`class`
 
 /**
- * @author Hudson Schumaker 
+ * @author Hudson Schumaker
  */
 class Person(
     val firstName: String,

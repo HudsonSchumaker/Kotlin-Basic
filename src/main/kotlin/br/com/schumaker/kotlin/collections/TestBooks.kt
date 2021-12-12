@@ -1,7 +1,7 @@
 package br.com.schumaker.kotlin.collections
 
 /**
- * @author Hudson Schumaker
+ * @author Hudson Schumaker 
  */
 fun main() {
     val b1 = Book(
